@@ -1,0 +1,44 @@
+{
+  "name": "ssenki-snek",
+  "version": "0.1.0",
+  "description": "nocomment",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "gulp",
+    "dev:watch": "tsc -p . --watch",
+    "dev:lint-fix": "gulp lint --fix",
+    "dev:lint": "gulp lint"
+  },
+  "engine": {
+    "node": ">=12"
+  },
+  "keywords": [
+    "just",
+    "snek"
+  ],
+  "repository": "https://github.com/gazmull/ssenki-snek.git",
+  "homepage": "https://github.com/gazmull/ssenki-snek",
+  "author": "https://github.com/gazmull",
+  "license": "MIT",
+  "dependencies": {
+    "@gazmull/logger": "github:gazmull/logger",
+    "axios": "^0.19.2",
+    "del": "^5.1.0",
+    "fs-nextra": "^0.4.7",
+    "yaml": "^1.9.0"
+  },
+  "peerDependencies": {
+    "ffmpeg-static": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/ffmpeg-static": "^3.0.0",
+    "@types/node": "^13.13.0",
+    "@types/yaml": "^1.2.0",
+    "gulp": "^4.0.2",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "tslint": "^6.1.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "typescript": "^3.8.3"
+  }
+}

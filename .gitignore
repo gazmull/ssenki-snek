@@ -1,0 +1,10 @@
+# Package Managers
+node_modules
+package-lock.json
+yarn-error.log
+
+#Private Credentials
+config.yaml
+logs
+dist
+test
