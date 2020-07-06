@@ -1,4 +1,4 @@
-range: [ 7000000, 7008300 ] # Don't modify unless there are new characters in the game
+range: [ 7000000, 7009200 ] # Don't modify unless there are new characters in the game
 destination: '../output' # Where to save the jpg/mp4 files
 foldered: false # Change to true if subfolders for each character in destination is needed
 verbose: false # Change to true if you're looking to find errors or dev asked you to do so
